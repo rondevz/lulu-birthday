@@ -1,0 +1,15 @@
+.gradient-text {
+  background: linear-gradient(120deg, rgb(214, 136, 136), rgb(228, 67, 67), rgb(255, 217, 0), rgb(230, 76, 76), rgb(233, 179, 179));
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
